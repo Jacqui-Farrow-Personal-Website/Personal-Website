@@ -1,10 +1,43 @@
-h1{
+*
+header {
     color:purple;
-    text-align: center;
+    background-color:blanchedalmond;
     text-decoration: underline;
+    font-size: 2rem;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    padding: .6em 1em;
+    box-shadow: 0 2px 4px -2px black;
 
 }
+.name {
+    float: left;
+}
+.links {
+    float: right;
+}
+*
+.main {
+    min-height: 100vh;
+    padding: 100px 100px 95px;
+
+}
+*
 body{
     background-color: pink;
     text-align: center;
+}
+
+*
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    background-color: blanchedalmond;
+    bottom: 0;
+    left: 0;
+
+
 }
